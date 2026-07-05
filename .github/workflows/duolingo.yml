@@ -27,4 +27,4 @@ jobs:
           DUO_USERID: ${{ secrets.DUO_USERID }}
           DUO_AUTH: ${{ secrets.DUO_AUTH }}
         run: |
-          duobot run
+          duobot run --lessons 1
